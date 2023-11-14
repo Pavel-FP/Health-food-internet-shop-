@@ -1,0 +1,340 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #2c2c2c;
+}
+
+header .logo {
+  display: block;
+  margin: auto;
+}
+
+header nav .nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+header nav .nav a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+header .container {
+  transform: translateX(-8px);
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  margin-top: 20px;
+}
+
+header .container .cont-picture {
+  width: 100vw;
+  min-width: 100vh;
+  overflow: hidden;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+header .container .cont-picture img {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.text-block {
+  font-size: 24px;
+  font-family: "Montserrat";
+  position: absolute;
+  bottom: 5%;
+  left: 2%;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header .text-block h3 {
+  font-weight: 400;
+}
+
+/*------------------------MAIN------------------------*/
+
+main article h1 {
+  color: #a9a9a9;
+  font-size: 30px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  margin-left: 3%;
+}
+
+main article h2 {
+  color: #444444;
+  font-size: 40px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  margin-left: 3%;
+}
+
+main article h3 {
+  color: #424242;
+  font-size: 36px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-align: center;
+}
+
+main section article .grid-reasons {
+  display: grid;
+  grid-template-columns: repeat(2, 49vw);
+  grid-column: 620px;
+  text-align: left;
+  justify-content: center;
+}
+
+main section article .grid-reasons .grid-1 {
+  display: flex;
+}
+
+main section article .grid-reasons .grid-1 .onesp span {
+  display: block;
+  width: 367px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  margin: 0 auto;
+  margin-top: 40px;
+
+  color: #000000;
+}
+
+main section article .grid-reasons .grid-1 .onesp {
+  display: block;
+  width: 367px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0 auto;
+  margin-top: 40px;
+
+  color: #000000;
+}
+
+main section article .grid-reasons .grid-1 .onesp button {
+  border: 2px solid #ff960b;
+  border-radius: 25px;
+  background-color: #ff960b;
+  color: white;
+  font-size: 25px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 5%;
+}
+
+main section article .grid-reasons-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-column: 100px;
+  text-align: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+main section article .grid-reasons-2 .grid-2 h3 {
+  display: block;
+  width: 367px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  margin: 0 auto;
+  margin-top: 40px;
+
+  color: #000000;
+}
+
+main section article .grid-reasons-2 .grid-2 .onesp {
+  display: block;
+  width: 367px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0 auto;
+  margin-top: 40px;
+
+  color: #000000;
+}
+
+main section article .grid-reasons-2 .grid-2 button {
+  border: 2px solid #ff960b;
+  border-radius: 25px;
+  background-color: #ff960b;
+  color: white;
+  font-size: 25px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 5%;
+  vertical-align: bottom;
+}
+
+/*------------------------FOOTER------------------------*/
+
+footer {
+  margin-top: 15%;
+  background-color: #2c2c2c;
+}
+
+footer .footer-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+footer .footer-flex .pic-flex {
+  padding-top: 10%;
+}
+
+footer .footer-flex .p-p-p {
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+footer .footer-flex div > .p-p {
+  font-family: "Montserrat";
+  font-size: 24px;
+  color: white;
+}
+
+footer .footer-flex .refs {
+  text-align: right;
+  padding-top: 1.5%;
+}
+
+footer .footer-flex .refs a {
+  font-family: "Montserrat";
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+footer .footer-flex .refs ol li {
+  list-style-type: none;
+  padding-top: 7%;
+}
+
+footer .footer-flex .refs div > .number {
+  font-family: "Montserrat";
+  font-size: 28px;
+  color: white;
+}
+
+@media screen and (max-width: 375px) {
+  .text-block {
+    padding: 0;
+  }
+  header .container .cont-picture img {
+    width: 100vw;
+  }
+  main section article .grid-reasons {
+    grid-template-columns: repeat(1, 100vw);
+  }
+  main section article .grid-reasons .grid-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  main section article .grid-reasons .grid-1 .onesp {
+    text-align: center;
+  }
+  footer .footer-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  footer .footer-flex .refs {
+    text-align: center;
+  }
+  footer .footer-flex .refs ol{
+    padding: 0;
+  }
+}
+
+@media screen and (max-width:757px) and (min-width:376px) {
+  main section article .grid-reasons-2 {
+    grid-template-columns: repeat(1, 100vw);
+  }
+  footer .footer-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  footer .footer-flex .refs {
+    text-align: center;
+  }
+  footer .footer-flex .refs ol{
+    padding: 0;
+  }
+}
+@media screen and (max-width: 882px) and (min-width: 376px) {
+  main section article .grid-reasons .grid-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  main section article .grid-reasons {
+    display: grid;
+    grid-template-columns: repeat(1, 100vw);
+  }
+}
+@media screen and (max-width:1132px) and (min-width:992px) {
+  main section article .grid-reasons-2 {
+    grid-template-columns: repeat(2, 50vh);
+}
+}
+@media screen and (max-width:960px) and (min-width:883px) {
+  main section article .grid-reasons .grid-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  main section article .grid-reasons {
+    grid-template-columns: repeat(2, 50vh);
+  }
+}
+@media screen and (max-width:1401px) and (min-width:961px) {
+  main section article .grid-reasons .grid-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  main section article .grid-reasons {
+    grid-template-columns: repeat(2, 50vh);
+  }
+}

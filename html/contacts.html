@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/contacts.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+    />
+    <title>Web-site for practice</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="../img/logo.png" alt="Logo" />
+      <nav>
+        <div class="nav">
+          <a href="../html/catalog.php">каталог</a>
+          <a href="../index.html">главная</a>
+          <a href="../html/contacts.html">контакты</a>
+        </div>
+      </nav>
+      <div class="container">
+        <picture class="cont-picture">
+          <img src="../img/image 1.png" alt="image" />
+        </picture>
+        <div class="text-block">
+          <h1>
+            <span
+              >Свежие продукты<br />
+              в вашем холодильнике</span
+            >
+          </h1>
+          <h3>
+            Заказывай натуральные продукты в<br />
+            один клик и наполни жизнь пользой<br />
+            и качеством
+          </h3>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h3>Контакты</h3>
+      <div class="main-flex">
+        <div>
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4624b9c831654eac43cdfc51199eca2ec35df6f826a9b2f38bbadd30c5c1822d&amp;width=783&amp;height=606&amp;lang=ru_RU&amp;scroll=true"
+          ></script>
+        </div>
+        <div id="section4" class="contact-information">
+          <h4>Мы ждём вас по адресу:</h4>
+          <ul>
+            <li>
+              <p>Барнаул, ул.Антона Петрова, 190</p>
+            </li>
+            <li>
+              <p>E-mail:Van-Darkholme@mail.ru</p>
+            </li>
+            <li>
+              <p>Телефон: +7 800-555-35-35</p>
+            </li>
+            <li>
+              <p>Контактное лицо: Van-Darkholme</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h3>Обратная связь</h3>
+      <h2>Напишите нам</h2>
+      <h4>Задайте свой вопрос и мы обязательно свяжемся с<br />вами</h4>
+      <div class="respond">
+        <div class="respond-form">
+          <form action="#" method="post">
+            <input
+              type="text"
+              placeholder="Введите имя"
+              required
+              autocomplete="on"
+            /><br />
+            <input
+              type="tel"
+              id="phone"
+              placeholder="+7 (999)-(999)-99-99"
+              required
+              autocomplete="on"
+            /><br />
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Введите ваш запрос"
+              required
+            /><br />
+            <input class="border" type="submit" value="Отправить" />
+          </form>
+        </div>
+        <div class="img-pass">
+          <img src="../img/image 17.png" alt="Photo" />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-flex">
+        <div>
+          <div class="pic-flex">
+            <img src="../img/logo.png" alt="logo" />
+          </div>
+          <div class="p-p-p">
+            <span class="p-p">
+              Свежие овощи и фрукты с доставкой<br />
+              Работаем по всей России
+            </span>
+          </div>
+        </div>
+        <div class="refs">
+          <ol>
+            <li>
+              <a href="../html/catalog.php">Каталог</a>
+            </li>
+            <li>
+              <a href="../index.html">Клавная</a>
+            </li>
+            <li>
+              <a href="../html/contacts.html">Контакты</a>
+            </li>
+          </ol>
+          <div>
+            <p class="number">+7 800-555-35-35</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../js/jquery.maskedinput.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#phone").mask("+7(999)-(999)-99-99");
+      });
+    </script>
+  </body>
+</html>
